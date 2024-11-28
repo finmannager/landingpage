@@ -1,0 +1,310 @@
+@page "/"
+@inject IJSRuntime JS
+@inject NavigationManager NavigationManager
+
+<div class="landing-page">
+    <div id="popup" class="popup-overlay">
+        
+    <div class="popup-content">
+        <button class="close-button-popup" @onclick="ClosePopup">&times;</button>
+        <img src="mulher-moderna.webp" alt="Imagem ilustrativa de serviços de criação de sites e apps" class="popup-image" />
+        <h2 class="popup-title">Criação de Sites e Apps Profissionais</h2>
+        <p>Assine por apenas <strong class="price-highlight">R$69/mês</strong> e tenha um site profissional, incluindo integração com WhatsApp e redes sociais!</p>
+        <a href="https://wa.me/+5511977778331" class="whatsapp-button" target="_blank">Contato via WhatsApp</a>
+        <p class="popup-comment">Torne sua presença digital mais forte e profissional com um site personalizado e fácil de gerenciar.</p>
+    </div>
+</div>
+
+
+
+
+    <!-- Nova seção com imagem ilustrativa de uma pessoa usando o aplicativo -->
+    <section class="illustrative-section">
+        <img src="img-ilustration.webp" alt="Pessoa usando o Finmanager no celular" class="illustrative-image"/>
+        <p>Experimente o Finmanager em qualquer lugar! Nosso aplicativo está otimizado para dispositivos móveis, facilitando o acesso a suas finanças na palma da sua mão.</p>
+    </section>
+
+    <!-- Contagem Regressiva para Black Friday -->
+    <section class="countdown-section">
+        <h2>Promoção Black Friday termina em:</h2>
+        <div id="countdown-timer" class="countdown"></div>
+    </section>
+
+    <!-- Header com título e subtítulo -->
+    <header class="header">
+        <h1>Finmanager: Seu Gerenciador Financeiro Pessoal</h1>
+        <p>Controle suas finanças, planeje seu futuro e tome o controle do seu dinheiro com facilidade.</p>
+        <button @onclick="NavigateToSignup" class="cta-button">Comece Gratuitamente</button>
+    </header>
+
+    <!-- Imagem do App e Benefícios -->
+    <section class="features">
+        <img src="foto-apreset.png" alt="Imagem do Finmanager" class="app-image"/>
+        <div class="feature-list">
+            <h2>Por que escolher o Finmanager?</h2>
+            <ul>
+                <li>Gestão de gastos e receitas em um só lugar</li>
+                <li>Relatórios personalizados para ajudar no planejamento</li>
+                <li>Notificações em tempo real e alertas de limite de gasto</li>
+                <li>Fácil de usar e 100% seguro</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Call-to-Action final -->
+    <footer class="footer-landigpage">
+        <p>Não espere mais para organizar suas finanças!</p>
+        <button @onclick="NavigateToSignup" class="cta-button">Crie sua Conta Agora</button>
+    </footer>
+</div>
+<style>
+    
+</style>
+<style>
+/* Estilo para o título */
+    .popup-title {
+        color: #003366; /* Azul escuro */
+        font-weight: bold;
+        font-size: 1.8rem;
+    }
+
+    /* Estilo para destacar o preço */
+    .price-highlight {
+        font-size: 1.5rem;
+        color: #003366; /* Azul escuro */
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 5px;
+    }
+
+    /* Restante do estilo do popup */
+   
+
+    .close-button-popup {
+        position: absolute;
+        top: 10px;
+        @* right: 10px; *@
+        background: none;
+        border: none;
+        font-size: 3.5em;
+        color: #000000;
+        cursor: pointer;
+    }
+
+    /* Estilo do Popup de tela cheia */
+    .popup-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+
+    .popup-content {
+        background-color: #deeaff;
+        @* padding: 20px; *@
+        max-width: 500px;
+        width: 90%;
+        border-radius: 8px;
+        text-align: center;
+        position: relative;
+    }
+
+
+    .popup-image {
+        max-width: 100%;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    .whatsapp-button {
+        display: inline-block;
+        background-color: #25D366;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 15px;
+        transition: background-color 0.3s;
+    }
+
+    .whatsapp-button:hover {
+        background-color: #1ebe57;
+    }
+
+    .popup-comment {
+        margin-top: 10px;
+        font-size: 0.9em;
+        color: #666;
+    }
+
+    /* Restante do estilo da página */
+    .landing-page {
+        font-family: Arial, sans-serif;
+        color: #333;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .header {
+        background-color: #4CAF50;
+        color: white;
+        padding: 40px 20px;
+        border-radius: 8px;
+    }
+
+    .header h1 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .header p {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+
+    .cta-button {
+        background-color: #ff9800;
+        color: white;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .cta-button:hover {
+        background-color: #ff5722;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 40px 0;
+        gap: 20px;
+    }
+
+    .app-image {
+        max-width: 200px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature-list {
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .feature-list h2 {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .feature-list ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .feature-list li {
+        font-size: 0.8rem;
+        margin: 10px 0;
+    }
+.footer-landigpage {
+    background-color: #072f57;
+    padding: 1rem;
+    text-align: center;
+    position: ;
+    bottom: 0;
+    width: 100%;
+    /* height: 300px; */
+    border-top: 1px solid #e0e0e0;
+     margin-top: 40px;
+     color: #49e456;
+}
+    .illustrative-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 0;
+        padding: 20px;
+        background-color: #ff9800;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(250, 248, 248, 0.575);
+    }
+
+    .illustrative-image {
+        max-width: 300px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .illustrative-section p {
+        font-size: 1.1rem;
+        color: #000000;
+        max-width: 500px;
+        text-align: center;
+    }
+
+    /* CSS para a contagem regressiva */
+    .countdown-section {
+        margin: 40px 0;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #333;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    .countdown {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        font-size: 1.5em;
+    }
+
+    .time-box {
+        background-color: #ff9800;
+        padding: 15px;
+        border-radius: 5px;
+        min-width: 70px;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+
+    .time-box span {
+        display: block;
+        font-size: 0.7em;
+        color: #000000;
+    }
+</style>
+
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JS.InvokeVoidAsync("startCountdown", DateTime.UtcNow.AddDays(3));
+        }
+    }
+
+    void NavigateToSignup()
+    {
+        NavigationManager.NavigateTo("https://finmannager.github.io/app/");
+    }
+
+    private async Task ClosePopup()
+    {
+        // Ocultar o popup quando o botão de fechar for clicado
+        await JS.InvokeVoidAsync("eval", "document.getElementById('popup').style.display = 'none';");
+    }
+}

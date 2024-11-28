@@ -1,0 +1,181 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\obj\\Debug\\net8.0\\compressed\\obbb0l6azr.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AppFinancia.styles.css",
+      "PackagePath": "staticwebassets\\AppFinancia.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\obj\\Debug\\net8.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\favicon2.png",
+      "PackagePath": "staticwebassets\\favicon2.png"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\foto-apreset.png",
+      "PackagePath": "staticwebassets\\foto-apreset.png"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\gato.webp",
+      "PackagePath": "staticwebassets\\gato.webp"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\icon-512Blazor.png",
+      "PackagePath": "staticwebassets\\icon-512Blazor.png"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\icones-plataforrmas.png",
+      "PackagePath": "staticwebassets\\icones-plataforrmas.png"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\img-Graf.jpg",
+      "PackagePath": "staticwebassets\\img-Graf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\img-app-home.jpg",
+      "PackagePath": "staticwebassets\\img-app-home.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\img-dinheiro.jpg",
+      "PackagePath": "staticwebassets\\img-dinheiro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\img-home.jpg",
+      "PackagePath": "staticwebassets\\img-home.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\img-ilustration.webp",
+      "PackagePath": "staticwebassets\\img-ilustration.webp"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\img-relatorio.jpg",
+      "PackagePath": "staticwebassets\\img-relatorio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\joao.webp",
+      "PackagePath": "staticwebassets\\joao.webp"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\js\\chartHelper.js",
+      "PackagePath": "staticwebassets\\js\\chartHelper.js"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\js\\firebase.js",
+      "PackagePath": "staticwebassets\\js\\firebase.js"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\js\\pdfGenerator.js",
+      "PackagePath": "staticwebassets\\js\\pdfGenerator.js"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\logo-99.png",
+      "PackagePath": "staticwebassets\\logo-99.png"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\logo-app.webp",
+      "PackagePath": "staticwebassets\\logo-app.webp"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\logo_192.png",
+      "PackagePath": "staticwebassets\\logo_192.png"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\logo_512.png",
+      "PackagePath": "staticwebassets\\logo_512.png"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\logo_app.png",
+      "PackagePath": "staticwebassets\\logo_app.png"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\logo_app.webp",
+      "PackagePath": "staticwebassets\\logo_app.webp"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\manifest.webmanifest",
+      "PackagePath": "staticwebassets\\manifest.webmanifest"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\maria.webp",
+      "PackagePath": "staticwebassets\\maria.webp"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\mulher-moderna.webp",
+      "PackagePath": "staticwebassets\\mulher-moderna.webp"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\mulher-tablete.webp",
+      "PackagePath": "staticwebassets\\mulher-tablete.webp"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "C:\\Users\\cheri\\source\\repos\\BlazorComLocalstorage\\Finmannager\\FinmanagerLanding\\wwwroot\\site-seguro.png",
+      "PackagePath": "staticwebassets\\site-seguro.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AppFinancia.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AppFinancia.props",
+      "PackagePath": "build\\AppFinancia.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AppFinancia.props",
+      "PackagePath": "buildMultiTargeting\\AppFinancia.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AppFinancia.props",
+      "PackagePath": "buildTransitive\\AppFinancia.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
