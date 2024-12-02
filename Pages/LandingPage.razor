@@ -6,7 +6,12 @@
     <div id="popup" class="popup-overlay">
         
     <div class="popup-content">
-        <button class="close-button-popup" @onclick="ClosePopup">&times;</button>
+       
+         <!-- Mensagem explicativa -->
+            <p class="popup-info">Este é um anúncio. Você pode fechá-lo para continuar explorando o site.</p>
+
+            <!-- Botão de fechar -->
+            <button class="close-button-popup" @onclick="ClosePopup">&times;</button>
         <img src="mulher-moderna.webp" alt="Imagem ilustrativa de serviços de criação de sites e apps" class="popup-image" />
         <h2 class="popup-title">Criação de Sites e Apps Profissionais</h2>
         <p>Assine por apenas <strong class="price-highlight">R$99/mês</strong> e tenha um site profissional, incluindo integração com WhatsApp e redes sociais!</p>
@@ -60,7 +65,16 @@
 <style>
     
 </style>
+<!-- Estilização adicional para a mensagem explicativa -->
 <style>
+    .popup-info {
+        font-size: 0.9rem;
+        color: #333;
+        background-color: #ffffcc;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        }
 /* Estilo para o título */
     .popup-title {
         color: #003366; /* Azul escuro */
@@ -87,7 +101,7 @@
         background: none;
         border: none;
         font-size: 3.5em;
-        color: #000000;
+        color: #c71d1d;
         cursor: pointer;
     }
 
