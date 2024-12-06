@@ -51,6 +51,24 @@
         <p>Controle suas finanças, planeje seu futuro e tome o controle do seu dinheiro com facilidade.</p>
         <button @onclick="NavigateToSignup" class="cta-button">Comece Gratuitamente</button>
     </header>
+
+<!-- Publicidade 99pay -->
+<div class="col-md-4">
+    <h5 class="text-center">Destaque:</h5>
+    <div class="card p-3" style="background-color: #f8f7f1; color: black;">
+        <div class="d-flex align-items-center">
+            <div class="me-2">
+                <img src="logo-99.png" alt="Logo dinheiro" width="40" height="40"> <!-- Pequena logo simbolizando dinheiro -->
+            </div>
+            <div>
+                <p style="font-weight: bold;">Ganhe até R$25 em cupons de corrida da 99!</p> <!-- Texto em negrito -->
+                <p style="font-size: 0.875rem; color: gray;">para cada amigo que convidar!.</p>
+            </div>
+        </div>
+        <button class="btn btn-sm me-2 rounded-pill btn-warning" 
+        style=" font-weight: bold; color: black; font-size: 0.75rem;" @onclick="GoToIndicar99">Quero agora</button>
+    </div>
+</div>
  <!-- Nova seção com imagem ilustrativa de uma pessoa usando o aplicativo -->
     <section class="illustrative-section">
         <img src="img-ilustration.webp" alt="Pessoa usando o Finmanager no celular" class="illustrative-image"/>
@@ -322,5 +340,9 @@
     {
         // Ocultar o popup quando o botão de fechar for clicado
         await JS.InvokeVoidAsync("eval", "document.getElementById('popup').style.display = 'none';");
+    }
+ private void GoToIndicar99()
+    {
+        NavigationManager.NavigateTo("indicacao-99");
     }
 }
